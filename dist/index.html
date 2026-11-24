@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#02040a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="/favicon.svg" />
+    <title>Vía Láctea — Los 5 gigantes estelares</title>
+    <script type="module" crossorigin src="/assets/index-BHbk5wCG.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-oJthZoA4.css">
+  </head>
+  <body>
+    <canvas id="galaxy-canvas"></canvas>
+    <svg id="leader-lines-svg" aria-hidden="true"></svg>
+    <div id="cards-layer"></div>
+    <header id="hud-overlay">
+      <div class="hud-brand">
+        <span class="hud-kicker">EXPLORACIÓN INTERGALÁCTICA</span>
+        <strong>LA VÍA LÁCTEA</strong>
+      </div>
+      <div class="hud-phase" aria-live="polite"><span id="phase-value">00</span><span>/ 05</span></div>
+      <button id="mutate-cluster" type="button">Reconfigurar Cúmulo Estelar</button>
+    </header>
+    <div id="intro-copy">
+      <h1>LA VÍA LÁCTEA</h1>
+      <p>Arrastra para girar la galaxia · Haz scroll para descubrir sus 5 estrellas colosales</p>
+    </div>
+    <main id="scroll-container">
+      <section class="scroll-section" data-phase="0" aria-label="Introducción"></section>
+      <section class="scroll-section" data-phase="1" aria-label="Stephenson 2-18"></section>
+      <section class="scroll-section" data-phase="2" aria-label="UY Scuti"></section>
+      <section class="scroll-section" data-phase="3" aria-label="VY Canis Majoris"></section>
+      <section class="scroll-section" data-phase="4" aria-label="NML Cygni"></section>
+      <section class="scroll-section" data-phase="5" aria-label="Westerlund 1-26"></section>
+      <section class="scroll-section" data-phase="6" aria-label="Las cinco estrellas"></section>
+    </main>
+  </body>
+</html>

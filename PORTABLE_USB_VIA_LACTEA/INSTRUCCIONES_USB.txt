@@ -1,0 +1,10 @@
+VÍA LÁCTEA - LOS 5 GIGANTES ESTELARES
+
+Copia toda esta carpeta PORTABLE_USB_VIA_LACTEA en tu pendrive USB.
+Haz doble clic en el archivo ViaLactea3D.html.
+
+No necesitas instalar Node.js, npm, Python, Vite ni ningún otro programa.
+No necesitas conexión a Internet.
+Compatible con Google Chrome, Microsoft Edge, Mozilla Firefox y navegadores modernos.
+
+Si el navegador solicita permiso para abrir el archivo local, acepta abrirlo desde el equipo.
